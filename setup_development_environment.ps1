@@ -29,15 +29,9 @@ choco install docker-cli -y
 choco install docker-desktop -y
 choco install docker-compose -y
 choco install terraform -y
-#choco install jq -y
-#choco install dotnetcore-sdk -y
 choco install meld -y
 choco install azure-cli -y
 choco install microsoftazurestorageexplorer -y
-
-# text editors
-Write-Host "====> Installing text editors..."
-choco install vscode -y
 
 # browsers
 Write-Host "====> Installing web browsers..."
@@ -46,86 +40,40 @@ choco install GoogleChrome -y
 
 # git gui softwares
 Write-Host "====> Installing git gui softwares..."
-choco install git-fork -y
-# choco install git-cola -y
-# choco install gitextensions -y
-
-# 3d development
-Write-Host "====> Installing 3D development softwares..."
-choco install blender -y #version 3.3.1
-choco install epicgameslauncher -y
-#choco install freecad -y
-choco install steam -y
-choco install unity-hub -y
-#choco install unity -y
-choco install renderdoc -y
-choco install InkScape -y
-choco install cuda -y
-# choco install vulkan-sdk -y
+choco install git-cola -y
 
 # ides
 Write-Host "====> Installing IDEs..."
 choco install vscode -y
-choco install visualstudio2019buildtools -y
-#choco install visualstudio2019community -y --package-parameters "--includeRecommended --locale en-US --passive --add Microsoft.VisualStudio.Component.CoreEditor --add Microsoft.VisualStudio.Workload.NetWeb --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.NetCoreTools --add Microsoft.VisualStudio.Workload.Python --add Microsoft.VisualStudio.Workload.NativeDesktop --add Microsoft.VisualStudio.Workload.NativeGame --add Microsoft.VisualStudio.Workload.NativeCrossPlat --add Component.GitHub.VisualStudio --add Component.Incredibuild --add Microsoft.VisualStudio.Workload.VisualStudioExtension --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.Universal"
-# choco install visualstudio2019professional -y --package-parameters "--includeRecommended --locale en-US --passive --add Microsoft.VisualStudio.Component.CoreEditor --add Microsoft.VisualStudio.Workload.NetWeb --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.NetCoreTools --add Microsoft.VisualStudio.Workload.Python --add Microsoft.VisualStudio.Workload.NativeDesktop --add Microsoft.VisualStudio.Workload.NativeGame --add Microsoft.VisualStudio.Workload.NativeCrossPlat --add Component.GitHub.VisualStudio --add Microsoft.VisualStudio.Workload.VisualStudioExtension --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.Universal"
-choco install visualstudio2022professional -y --package-parameters "--includeRecommended --locale en-US --passive --add Microsoft.VisualStudio.Component.CoreEditor --add Microsoft.VisualStudio.Workload.NetWeb --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.NetCoreTools --add Microsoft.VisualStudio.Workload.Python --add Microsoft.VisualStudio.Workload.NativeDesktop --add Microsoft.VisualStudio.Workload.NativeGame --add Microsoft.VisualStudio.Workload.NativeCrossPlat --add Component.GitHub.VisualStudio --add Microsoft.VisualStudio.Workload.VisualStudioExtension --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.Universal"
+choco install visualstudio2022enterprise -y --package-parameters "--includeRecommended --locale en-GB --passive --add Microsoft.VisualStudio.Component.CoreEditor --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.NetWeb --add Microsoft.VisualStudio.Workload.Node --add Component.GitHub.VisualStudio --add Microsoft.VisualStudio.Component.Git"
+#choco install visualstudio2022community -y --package-parameters "--includeRecommended --locale en-GB --passive --add Microsoft.VisualStudio.Component.CoreEditor --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.NetWeb --add Microsoft.VisualStudio.Workload.Node --add Component.GitHub.VisualStudio --add Microsoft.VisualStudio.Component.Git"
+choco install jetbrains-rider -y
+choco install linqpad -y
 
 # ide extensions
 Write-Host "====> Installing IDE extensions..."
-choco install cppcheck -y
-choco install visualassist -y
+choco install resharper -y
+choco install sonarlint-vs2022 -y
+choco install codemaid -y
 
 # additional softwares
 Write-Host "====> Installing additional softwares..."
-choco install adobedigitaleditions -y
-#choco install adobereader -y
-choco install anydesk -y
-choco install authy-desktop -y
-# choco install bing-wallpaper -y # just for reminder there is no package like this
-choco install calibre -y
-#choco install dbeaver -y
 choco install discord -y
-choco install drmemory -y
 choco install drawio -y
-#choco install foxitreader -y
-choco install filezilla -y
 choco install firacode -y
-# choco install freshbing -y # open-source bing-wallpaper app
-choco install grammarly -y
-choco install hwmonitor -y
-choco install imagemagick -y
-# choco install logitech-options-plus -y
-choco install lghub -y
-choco install nomachine -y
-choco install obsidian -y
-choco install obs-studio -y
-#choco install passwordSafe -y
-choco install pdftk -y
+choco install logitech-options-plus -y
 choco install postman -y
 choco install powertoys -y
-choco install protonvpn -y
+choco install devtoys -y
 choco install slack -y
 choco install screenpresso -y
-# choco install sourcetrail -y
 choco install spotify -y
-choco install sumatrapdf -y
-choco install treesizefree -y
 choco install vlc -y
-choco install vmware-workstation-player -y
 choco install vscode-drawio -y
-choco install wireshark -y
-choco install zoom -y
-
-# video/photo editing softwares
-Write-Host "====> Installing video/photo editing softwares..."
-# choco install adobe-creative-cloud -y # just for reminder there is no package like this
-# choco install adobe-lightroom -y # just for reminder there is no package like this
-# choco install adobe-photoshop -y # just for reminder there is no package like this
-# choco install deepmeta -y # just for reminder there is no package like this
-# choco install vero -y # just for reminder there is no package like this
-choco install rawtherapee -y
-choco install shotcut -y
-choco install nomacs -y
+choco install rainmeter -y
 
 Write-Host "=== Your development environment is ready to use! Enjoy! ==="
+
+Write-Host "Manual Installation Required"
+Write-Host "- Rainbow braces vs extension"
+Write-Host "- adobe-creative-cloud"
