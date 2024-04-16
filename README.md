@@ -25,13 +25,13 @@ you can select your workloads or components that you want to install. The script
   - ASP.NET and Web Development (Microsoft.VisualStudio.Workload.NetWeb)
   - Azure Development (Microsoft.VisualStudio.Workload.Azure)
   - Python Development (Microsoft.VisualStudio.Workload.Python)
+  - Node.js Development (Microsoft.VisualStudio.Workload.Node)
+
+You can also add those packages depends on your needs :  
   - .Net Core Cross-platform Development (Microsoft.VisualStudio.Workload.NetCoreTools)
   - Desktop Development with C++ (Microsoft.VisualStudio.Workload.NativeDesktop)
   - Game Development with C++ (Microsoft.VisualStudio.Workload.NativeGame)
   - Linux Development with C++ (Microsoft.VisualStudio.Workload.NativeCrossPlat)
-
-You can also add those packages depends on your needs :
-  - Node.js Development (Microsoft.VisualStudio.Workload.Node)
   - .NET Desktop Development (Microsoft.VisualStudio.Workload.ManagedDesktop)
   - Universal Windows Platform Development (Microsoft.VisualStudio.Workload.Universal)
   - Mobile Development with .NET (Microsoft.VisualStudio.Workload.NetCrossPlat)
