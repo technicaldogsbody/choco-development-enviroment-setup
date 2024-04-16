@@ -16,6 +16,11 @@ choco install Microsoft-Windows-Subsystem-Linux -y -source windowsfeatures
 choco install wsl2 --params "/Version:2 /Retry:true" -y
 choco install wsl-ubuntu-2204 --params "/InstallRoot:true" -y
 
+Write-Host "====> Installing dotnet <===="
+choco install dotnet --version=6.0.29 -y
+choco install dotnet --version=7.0.18 -y
+choco install dotnet -y
+
 # core components
 Write-Host "====> Installing core components..."
 choco install powershell-core -y
@@ -24,14 +29,15 @@ choco install git -y
 choco install curl -y
 choco install wget -y
 choco install nodejs-lts -y
+choco install nvm =y
 choco install python3 -y
-choco install docker-cli -y
 choco install docker-desktop -y
-choco install docker-compose -y
 choco install terraform -y
 choco install meld -y
 choco install azure-cli -y
 choco install microsoftazurestorageexplorer -y
+choco install NuGet.CommandLine -y
+choco install azure-cli -y
 
 # browsers
 Write-Host "====> Installing web browsers..."
@@ -41,6 +47,7 @@ choco install GoogleChrome -y
 # git gui softwares
 Write-Host "====> Installing git gui softwares..."
 choco install git-cola -y
+#choco install git-fork -y
 
 # ides
 Write-Host "====> Installing IDEs..."
@@ -49,6 +56,7 @@ choco install visualstudio2022enterprise -y --package-parameters "--includeRecom
 #choco install visualstudio2022community -y --package-parameters "--includeRecommended --locale en-GB --passive --add Microsoft.VisualStudio.Component.CoreEditor --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.NetWeb --add Microsoft.VisualStudio.Workload.Node --add Component.GitHub.VisualStudio --add Microsoft.VisualStudio.Component.Git"
 choco install jetbrains-rider -y
 choco install linqpad -y
+choco install sql-server-management-studio
 
 # ide extensions
 Write-Host "====> Installing IDE extensions..."
