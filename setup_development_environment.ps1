@@ -17,7 +17,7 @@ choco install Microsoft-Windows-Subsystem-Linux -y -source windowsfeatures
 choco install wsl2 --params "/Version:2 /Retry:true" -y
 choco install wsl-ubuntu-2204 --params "/InstallRoot:true" -y
 
-Write-Host "====> Installing dotnet <===="
+Write-Host "====> Installing dotnet..."
 choco install dotnet --version=6.0.29 -y
 choco install dotnet --version=7.0.18 -y
 choco install dotnet -y
