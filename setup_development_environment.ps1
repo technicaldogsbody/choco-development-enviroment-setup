@@ -56,7 +56,7 @@ choco install visualstudio2022enterprise -y --package-parameters "--includeRecom
 #choco install visualstudio2022community -y --package-parameters "--includeRecommended --locale en-GB --passive --add Microsoft.VisualStudio.Component.CoreEditor --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.NetWeb --add Microsoft.VisualStudio.Workload.Node --add Component.GitHub.VisualStudio --add Microsoft.VisualStudio.Component.Git"
 choco install jetbrains-rider -y
 choco install linqpad -y
-choco install sql-server-management-studio
+choco install sql-server-management-studio -y
 
 # ide extensions
 Write-Host "====> Installing IDE extensions..."
@@ -79,6 +79,7 @@ choco install spotify -y
 choco install vlc -y
 choco install vscode-drawio -y
 choco install rainmeter -y
+choco install nvda -y
 
 Write-Host "=== Your development environment is ready to use! Enjoy! ==="
 
