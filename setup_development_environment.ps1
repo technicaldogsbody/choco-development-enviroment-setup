@@ -6,6 +6,7 @@ Write-Host "=== Creating your development environment! ==="
 Write-Host "====> Installing Choco packages..."
 choco --version
 choco feature enable -name=exitOnRebootDetected
+choco feature enable -name=allowGlobalConfirmation;
 choco install ChocolateyGUI -y
 
 # windows subsystem for linux
@@ -48,12 +49,14 @@ choco install GoogleChrome -y
 Write-Host "====> Installing git gui softwares..."
 choco install git-cola -y
 #choco install git-fork -y
+choco install github-desktop -y
 
 # ides
 Write-Host "====> Installing IDEs..."
 choco install vscode -y
 choco install visualstudio2022enterprise -y --package-parameters "--includeRecommended --locale en-GB --passive --add Microsoft.VisualStudio.Component.CoreEditor --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.NetWeb --add Microsoft.VisualStudio.Workload.Node --add Component.GitHub.VisualStudio --add Microsoft.VisualStudio.Component.Git"
 #choco install visualstudio2022community -y --package-parameters "--includeRecommended --locale en-GB --passive --add Microsoft.VisualStudio.Component.CoreEditor --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.NetWeb --add Microsoft.VisualStudio.Workload.Node --add Component.GitHub.VisualStudio --add Microsoft.VisualStudio.Component.Git"
+choco install jetbrainstoolbox -y
 choco install jetbrains-rider -y
 choco install linqpad -y
 choco install sql-server-management-studio -y
@@ -80,6 +83,7 @@ choco install vlc -y
 choco install vscode-drawio -y
 choco install rainmeter -y
 choco install nvda -y
+choco install fiddler -y
 
 Write-Host "=== Your development environment is ready to use! Enjoy! ==="
 
