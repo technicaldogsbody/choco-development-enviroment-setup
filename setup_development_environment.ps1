@@ -75,5 +75,5 @@ choco install rainmeter -y
 Write-Host "=== Your development environment is ready to use! Enjoy! ==="
 
 Write-Host "Manual Installation Required"
-Write-Host "- Rainbow braces vs extension"
-Write-Host "- adobe-creative-cloud"
+Write-Host " - Rainbow braces vs extension"
+Write-Host " - adobe-creative-cloud"
