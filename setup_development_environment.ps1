@@ -14,49 +14,35 @@ Write-Host "====> Installing windows subsystem for linux..."
 choco install VirtualMachinePlatform -y -source windowsfeatures
 choco install Microsoft-Windows-Subsystem-Linux -y -source windowsfeatures
 choco install wsl2 --params "/Version:2 /Retry:true" -y
-choco install wsl-ubuntu-2004 --params "/InstallRoot:true" -y
+choco install wsl-ubuntu-2204 --params "/InstallRoot:true" -y
 
 # core components
 Write-Host "====> Installing core components..."
-# choco install cmder -y
 choco install powershell-core -y
-#choco install microsoft-windows-terminal -y
+choco install microsoft-windows-terminal -y
 choco install git -y
 choco install curl -y
 choco install wget -y
 choco install nodejs-lts -y
 choco install python3 -y
-choco install cmake -y # version 3.22.1
-choco install ninja -y
-#choco install 7zip -y
 choco install docker-cli -y
-choco install kubernetes-cli -y
-#choco install minikube -y
 choco install docker-desktop -y
 choco install docker-compose -y
 choco install terraform -y
-choco install openssl -y
-choco install putty -y
-choco install jq -y
-choco install dotnetcore-sdk -y
-choco install openlens -y
+#choco install jq -y
+#choco install dotnetcore-sdk -y
 choco install meld -y
 choco install azure-cli -y
-choco install tabby -y
-#choco install mongodb-compass-isolated -y
 choco install microsoftazurestorageexplorer -y
 
 # text editors
 Write-Host "====> Installing text editors..."
-choco install sublimetext4 -y
-#choco install notepadplusplus -y
+choco install vscode -y
 
 # browsers
 Write-Host "====> Installing web browsers..."
 choco install firefox -y
 choco install GoogleChrome -y
-#choco install opera-gx -y
-#choco install microsoft-edge -y
 
 # git gui softwares
 Write-Host "====> Installing git gui softwares..."
