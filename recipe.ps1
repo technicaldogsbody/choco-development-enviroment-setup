@@ -30,7 +30,7 @@ choco install git -y
 choco install curl -y
 choco install wget -y
 choco install nodejs-lts -y
-choco install nvm =y
+choco install nvm -y
 choco install python3 -y
 choco install docker-desktop -y
 choco install terraform -y
