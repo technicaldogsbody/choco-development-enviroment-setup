@@ -11,9 +11,6 @@ choco install ChocolateyGUI -y
 
 # windows subsystem for linux
 Write-Host "====> Installing windows subsystem for linux..."
-#choco list --source windowsfeatures
-choco install VirtualMachinePlatform -y -source windowsfeatures
-choco install Microsoft-Windows-Subsystem-Linux -y -source windowsfeatures
 choco install wsl2 --params "/Version:2 /Retry:true" -y
 choco install wsl-ubuntu-2204 --params "/InstallRoot:true" -y
 
