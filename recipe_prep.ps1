@@ -1,7 +1,7 @@
 # choco installation
 # https://chocolatey.org/install
 
-Write-Host "=== Creating your development environment! ==="
+Write-Host "=== Prepping your development environment! ==="
 
 Write-Host "====> Installing Choco packages..."
 choco --version
