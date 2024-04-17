@@ -39,6 +39,7 @@ choco install azure-cli -y
 choco install microsoftazurestorageexplorer -y
 choco install NuGet.CommandLine -y
 choco install azure-cli -y
+choco install pnpm -y 
 
 # browsers
 Write-Host "====> Installing web browsers..."
