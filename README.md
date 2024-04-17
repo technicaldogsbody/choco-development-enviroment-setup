@@ -17,7 +17,7 @@ Now, you're ready to execute the installation script (**PowerShell as Administra
     
 You can activate or deactivate the packages in the list whatever you want. And, you can fork the repo and create your own development environment setup script.
 
-## Visual Studio 2019 Installation Details
+## Visual Studio Installation Details
 -------------
 According to this link https://docs.microsoft.com/en-us/visualstudio/install/workload-component-id-vs-community?view=vs-2019, 
 you can select your workloads or components that you want to install. The script will install those packages:
