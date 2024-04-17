@@ -20,7 +20,7 @@ choco install wsl-ubuntu-2204 --params "/InstallRoot:true" -y
 Write-Host "====> Installing dotnet..."
 choco install dotnet --version=6.0.29 -y
 choco install dotnet --version=7.0.18 -y
-choco install dotnet -y
+choco install dotnet --version=8.0.4 -y
 
 # core components
 Write-Host "====> Installing core components..."
