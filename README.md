@@ -10,8 +10,12 @@ After installed choco, you should be sure that your execution policy is **Unrest
 If it is not **Unrestricted** or **Bypass**, you should run that command:
 
     Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope LocalMachine
+
+Now, you're ready to execute the prep script (**PowerShell as Administrator**).
     
-Now, you're ready to execute the installation script (**PowerShell as Administrator**).
+    .\recipe_prep.ps1
+    
+Now, after rebooting, you're ready to execute the installation script (**PowerShell as Administrator**).
     
     .\recipe.ps1
     
