@@ -19,7 +19,7 @@ You can activate or deactivate the packages in the list whatever you want. And, 
 
 ## Visual Studio Installation Details
 -------------
-According to this link https://docs.microsoft.com/en-us/visualstudio/install/workload-component-id-vs-community?view=vs-2019, 
+According to this link https://docs.microsoft.com/en-us/visualstudio/install/workload-component-id-vs-community?view=vs-2022, 
 you can select your workloads or components that you want to install. The script will install those packages:
   - Visual Studio Core Editor (Microsoft.VisualStudio.Component.CoreEditor)
   - ASP.NET and Web Development (Microsoft.VisualStudio.Workload.NetWeb)
