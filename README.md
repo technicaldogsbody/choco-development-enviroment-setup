@@ -13,7 +13,7 @@ If it is not **Unrestricted** or **Bypass**, you should run that command:
     
 Now, you're ready to execute the installation script (**PowerShell as Administrator**).
     
-    .\setup_development_environment.ps1
+    .\recipe.ps1
     
 You can activate or deactivate the packages in the list whatever you want. And, you can fork the repo and create your own development environment setup script.
 
