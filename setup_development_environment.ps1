@@ -54,12 +54,16 @@ choco install github-desktop -y
 # ides
 Write-Host "====> Installing IDEs..."
 choco install vscode -y
+choco install vscode-csharp -y
+choco install vscode-powershell -y
+choco install vscode-gitlens -y
 choco install visualstudio2022enterprise -y --package-parameters "--includeRecommended --locale en-GB --passive --add Microsoft.VisualStudio.Component.CoreEditor --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.NetWeb --add Microsoft.VisualStudio.Workload.Node --add Component.GitHub.VisualStudio --add Microsoft.VisualStudio.Component.Git"
 #choco install visualstudio2022community -y --package-parameters "--includeRecommended --locale en-GB --passive --add Microsoft.VisualStudio.Component.CoreEditor --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.NetWeb --add Microsoft.VisualStudio.Workload.Node --add Component.GitHub.VisualStudio --add Microsoft.VisualStudio.Component.Git"
 choco install jetbrainstoolbox -y
 choco install jetbrains-rider -y
 choco install linqpad -y
 choco install sql-server-management-studio -y
+choco install azure-data-studio -y
 
 # ide extensions
 Write-Host "====> Installing IDE extensions..."
@@ -77,13 +81,13 @@ choco install postman -y
 choco install powertoys -y
 choco install devtoys -y
 choco install slack -y
-choco install screenpresso -y
 choco install spotify -y
 choco install vlc -y
 choco install vscode-drawio -y
 choco install rainmeter -y
 choco install nvda -y
 choco install fiddler -y
+choco install notion -y
 
 Write-Host "=== Your development environment is ready to use! Enjoy! ==="
 
