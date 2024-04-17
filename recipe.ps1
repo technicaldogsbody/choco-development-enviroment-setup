@@ -76,6 +76,7 @@ choco install drawio -y
 choco install firacode -y
 choco install logitech-options-plus -y
 choco install postman -y
+choco install bruno -y
 choco install powertoys -y
 choco install devtoys -y
 choco install slack -y
